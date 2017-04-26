@@ -7,10 +7,10 @@ where city = 'chicago';
 SELECT * FROM syntax_practice WHERE username LIKE '%a%';
 
 --The bank is giving a new customer bonus! Update all records with an account balance of 0.00 and a transactions_attempted of 0. Give them a new account balance of 10.00.
-SELECT * FROM syntax_practice
-UPDATE syntax_practice SET transactions_attempted = '0'
-UPDATE syntax_practice SET account_balance = '0.00'
-UPDATE syntax_practice SET account_balance = '10.00'
+SELECT * FROM syntax_practice;
+UPDATE syntax_practice SET transactions_attempted = '0';
+UPDATE syntax_practice SET account_balance = '0.00';
+UPDATE syntax_practice SET account_balance = '10.00';
 
 --Select all users that have attempted 9 or more transactions
 SELECT * FROM syntax_practice where transactions_attempted = '9';
